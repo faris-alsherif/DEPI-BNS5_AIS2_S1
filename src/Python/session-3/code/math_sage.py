@@ -39,7 +39,7 @@ def is_prime(num):
         if num % i == 0:
             return False
 
-        return True
+    return True
 
 
 def common_divisors(num1 : int, num2 : int) -> list[int]:
